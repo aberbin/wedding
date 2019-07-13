@@ -1,0 +1,165 @@
+body {
+      margin: 0;
+      padding: 0;
+      
+      background: url(3.jpg) no-repeat;
+      -moz-background-size: 100%; /* Firefox 3.6+ */
+      -webkit-background-size: 100%; /* Safari 3.1+ и Chrome 4.0+ */
+      -o-background-size: 100%; /* Opera 9.6+ */
+      background-size: 100%; /* Современные браузеры */
+   }
+
+    table, td {
+    	/*border: 1px solid #1F3236;*/
+        
+    	text-align: center;
+    	vertical-align: middle;
+    	cursor: pointer;
+    }
+td {
+    outline: 0px solid #1F3236;
+    border: 0px solid #1F3236;
+        height: 100px;
+        width: 100px;
+        padding: 0px;
+        margin: 0px;
+         font-size: 0px;
+    }
+    th {
+        /*margin: 10px auto 0px;*/
+        /*border: 3px solid #1F3236;*/
+        outline: 1px solid #1F3236;
+        text-align: center;
+        vertical-align: middle;
+        cursor: pointer;
+        color: white;
+        height: 38px;
+        padding: 0px;
+        margin: 0px;
+
+    }
+    .tr11 {
+        /*margin: 10px auto 0px;*/
+        /*border: 3px solid #1F3236;*/
+        outline: 1px solid #1F3236;
+  
+       
+    }
+    .tr21 {
+        
+        box-shadow: 0 0 0 0px red, 
+                0 0 0 0px blue,
+                1px 0 0 1px orange;
+       
+    }
+    table {
+        outline: 1px solid #1F3236;
+        margin: 120px auto 0px;
+        
+        width: 400px;
+        height: 400px;
+        
+        border-spacing: 0px;
+
+      /*background: #b5bdc8;*/
+      background: rgba(181, 189, 200, 0.2);
+
+    }
+    .td12 {
+        
+        /*background: linear-gradient(to top, #A9B1BC 0%, #828c95 36%, #1F3236 100%);*/
+        font-size: 0px;
+        /*opacity: 0; /*
+        color: #fff; /* Цвет текста */
+        /*border: 1px solid #333; */
+
+        width: 100px;
+        height: 100px;
+        vertical-align:  middle;
+        /*position: relative;*/
+    }
+    #step123 {
+        font-size: 27px; /* Размер шрифта */
+        color: #B5BDC8; /* Цвет текста */
+        border-radius: 8px; /* Радиус скругления */
+    }
+
+
+
+
+    .cls1 {
+    	background-image: url(1_01.jpg);
+    	background-size: cover;
+
+    }
+    .cls2 {
+    	background-image: url(1_02.jpg);
+    	background-size: cover;
+
+    }
+
+        .cls3 {
+    	background-image: url(1_03.jpg);
+    	background-size: cover;
+    }
+        .cls4 {
+    	background-image: url(1_04.jpg);
+    	background-size: cover;
+    }
+        .cls5 {
+    	background-image: url(1_05.jpg);
+    	background-size: cover;
+    }
+        .cls6 {
+    	background-image: url(1_06.jpg);
+    	background-size: cover;
+    
+    }
+        .cls7 {
+    	background-image: url(1_07.jpg);
+    	background-size: cover;
+
+    }
+        .cls8 {
+    	background-image: url(1_08.jpg);
+    	background-size: cover;
+    }
+        .cls9 {
+    	background-image: url(1_09.jpg);
+    	background-size: cover;
+    }
+        .cls10 {
+    	background-image: url(1_10.jpg);
+    	background-size: cover;
+    }
+        .cls11 {
+    	background-image: url(1_11.jpg);
+    	background-size: cover;
+    }
+        .cls12 {
+    	background-image: url(1_12.jpg);
+    	background-size: cover;
+    }
+        .cls13 {
+    	background-image: url(1_13.jpg);
+    	background-size: cover;
+    }
+        
+        .cls14 {
+    	background-image: url(1_14.jpg);
+    	background-size: cover;
+    }
+        .cls15 {
+    	background-image: url(1_15.jpg);
+    	background-size: cover;
+    }
+   .cls16 {
+        background-image: url(1_16.jpg);
+        background-size: cover;
+        -moz-transition: all 1s 0.1s ease-in;
+-o-transition: all 1s 0.1s ease-in;
+-webkit-transition: all 1s 0.1s ease-in;
+    }
+
+
+

@@ -1,0 +1,36 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="style.css">
+  
+
+</head>
+
+<body>
+  <audio  id="audio">
+    <source src="1.mp3" type="audio/mpeg">
+  </audio>
+
+  <audio  id="finish">
+    <source src="final.mp3" type="audio/mpeg">
+  </audio>
+ <form>
+ <input type="button" id = "muteButton" onclick="muteSound()" value="Отключить звук">
+</form>
+<table id = "table" onmousedown="return false" onselectstart="return false">
+	<th>Количество шагов:</th><th id = "step">0</th><th>Время:</th><th id = 'timer'>00:00:00</th>
+	<tr class = "tr"><td>1</td><td class = "tr">2</td><td>3</td><td class = "tr">4</td></tr>
+	<tr><td>5</td><td class = "tr2">6</td><td>7</td><td class = "tr2">8</td></tr>
+	<tr class = "tr"><td>9</td><td>10</td><td>11</td><td>12</td></tr>
+	<tr><td>13</td><td>14</td><td>15</td><td> </td></tr>
+</table>
+
+
+<script src="script.js"></script>
+
+</body>
+
+</html>
